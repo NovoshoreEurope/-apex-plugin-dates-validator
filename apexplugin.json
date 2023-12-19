@@ -3,16 +3,17 @@
     "version": "0.8",
     "description": "Introducing plugin for validating the correctness and sequence of two dates",
     "keywords": ["dates", "validation", "sequence"],
-    "homepage": "https://github.com/NovoshoreEurope/Oracle/tree/main/APEX/Plug-ins/DATES_VALIDATOR",
+    "homepage": "https://github.com/NovoshoreEurope/apex-plugin-dates-validator",
     "license": "GNU",
     "commercial": "No",
     "author": {
         "name": "Novoshore",
-        "email": "juan.antonio@novoshore.com"
-    },
+        "email": "juan.antonio@novoshore.com",
+        "url": "https://www.novoshore.com/"
+      },
     "repository": {
         "type": "git",
-        "url": "https://github.com/NovoshoreEurope/Oracle.git"
+        "url": "https://github.com/NovoshoreEurope/apex-plugin-dates-validator.git"
     },
     "oracle": {
         "versions": ["23.1.5"],
@@ -22,7 +23,7 @@
                 "internalName": "DATES_ACTION_LOAD_VALIDATOR",
                 "type": "dynamic action",
                 "demo": "https://vt1ua0ymgopd1jc-dbnsworkshop.adb.eu-frankfurt-1.oraclecloudapps.com/ords/r/juanantonio/plugin-arena/dates-validator",
-                "previewImage": "https://github.com/NovoshoreEurope/Oracle/blob/main/APEX/Plug-ins/DATES_VALIDATOR/src/images/preview_image_1.gif"
+                "previewImage": "https://github.com/NovoshoreEurope/apex-plugin-dates-validator/blob/main/src/images/preview_image_1.gif"
             }
         }
     }

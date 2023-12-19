@@ -6,6 +6,11 @@ The repository's scope is for hosting and managing Oracle APEX plugins, enabling
 </p>
 <p align="center">Oracle Apex files for Apex projects.</p>
 
+# Dynamic dates validator
+<p>
+  Introducing plugin for validating the correctness and sequence of two dates.
+</p>
+
 ### Features
 
 Oracle Apex files for Apex projects

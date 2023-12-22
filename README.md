@@ -22,7 +22,6 @@ This plugin for Oracle APEX is expertly crafted to efficiently validate the rela
   click here for demo (<a href="https://vt1ua0ymgopd1jc-dbnsworkshop.adb.eu-frankfurt-1.oraclecloudapps.com/ords/r/juanantonio/plugin-arena/dates-validator" target="_blank">dynamic dates validator</a>).
 </p>
 <br/>
-<br/>
 <p align="justify">
 In the "dist" (distribution) folder of the Oracle APEX plugin project, you will find the packaged version of the plugin. This folder is essential as it contains the final, deployable version of the plugin. Specifically, it includes the Oracle APEX plugin file, which is a critical component. This file is designed for easy importation into an Oracle APEX environment, seamlessly integrating the plugin's functionalities into an APEX application. It's the culmination of the development process, offering a ready-to-use solution for end users.
 <br/>

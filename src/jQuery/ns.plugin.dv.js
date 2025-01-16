@@ -43,13 +43,20 @@ function validateDates(item, event, startDateInput, endDateInput) {
 
     // Función para limpiar los mensajes de error
     const clearError = (dateInput) => {
-        $(`#${dateInput}_error_placeholder`).addClass('u-visible').html('');
+        apex.message.clearErrors(dateInput);
     };
 
     // Function to clear error messages
     const addError = (dateInput, errorMessage) => {
-        const errorTemplate = `<span class="t-Form-error"><div id="${dateInput}_error">${errorMessage}</div></span>`;
-        $(`#${dateInput}_error_placeholder`).removeClass('u-visible').html(errorTemplate);
+        apex.message.showErrors([
+            {
+                type: "error",
+                location: "inline",
+                pageItem: dateInput,
+                message: errorMessage,
+                unsafe: false
+            }
+        ]);
     };
 
     // Get the dates from the input fields

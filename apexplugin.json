@@ -22,7 +22,7 @@
             "plugin": {
                 "internalName": "DATES_ACTION_LOAD_VALIDATOR",
                 "type": "dynamic action",
-                "demo": "https://apexdev.novoshore.com/ords/r/uxxi/pluginhub/dynamic-dates-validator",
+                "demo": "https://apexdev.novoshore.com/ords/r/demos/pluginhub/dynamic-dates-validator",
                 "previewImage": "https://raw.githubusercontent.com/NovoshoreEurope/apex-plugin-dates-validator/main/src/images/preview_image_1.png"
             }
         }

@@ -1,6 +1,6 @@
 {
     "name": "Dynamic dates validator",
-    "version": "1",
+    "version": "1.0",
     "description": "Introducing plugin for validating the correctness and sequence of two dates.",
     "keywords": ["dates", "validation", "sequence"],
     "homepage": "https://github.com/NovoshoreEurope/apex-plugin-dates-validator",
